@@ -1,0 +1,29 @@
+.about {
+    background-color: bisque;
+    width:100%;
+    height:650px;
+    margin-top:0;
+   
+
+}
+.aboutinfo {
+    float:left;
+}
+.aboutinfo img {
+    height:350px;
+    margin-left:20px;
+    margin-right:25px;
+    margin-top:20px;
+    border-radius: 8px;
+}
+.about{
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent:32px;
+    font-weight: 500;
+
+}
+.rs {
+
+}

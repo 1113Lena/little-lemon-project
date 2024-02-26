@@ -1,0 +1,92 @@
+.navbar {
+    background-color: beige;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 13%;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+.navbar :global(.nav2) {
+    color:black;
+    text-decoration: none;
+}
+.navbar :global(.active) {
+    background-color:burlywood;
+}
+.navbar :global(.nav2):hover {
+    color:brown;
+    text-decoration: underline solid brown;
+}
+@media only screen and(min-width: 600px) {
+    .navbar .leftside .rightside{
+        display: none;
+    }
+}
+.navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }

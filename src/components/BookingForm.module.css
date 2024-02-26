@@ -1,0 +1,54 @@
+.header section {
+    width:100%;
+    margin-left:10%;
+    padding-bottom: 50px; 
+    color:beige;
+}
+.header {
+    padding-top: 80px;
+    background-color: darkseagreen;
+}
+form {
+    display: grid;
+    gap: 20px;
+    font-size:30px;
+}  
+ .btn{
+  background-color:#f4ce14;
+  color:black;
+  padding:12px 14px;
+  border:none;
+  border-radius: 12px;
+  font-size:15px;
+  font-weight: 300;
+} 
+.header :global(.react-datepicker) {
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 700px) {
+    header section, footer section {
+      display: grid;
+      grid-auto-flow: row;
+    }
+  }
+  
+  @media (min-width: 701px) {
+  footer section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:grid;
+  }
+  header section {
+    grid-template-columns: 1fr 1fr;
+    display:grid;
+    justify-items: center;
+  }
+  }
+  .cancel {
+    background-color: #f4ce14;
+    font-size: 15px;
+    font-weight:300;
+    padding:12px;
+    margin-left:120px;
+  }

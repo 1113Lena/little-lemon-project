@@ -1,0 +1,64 @@
+footer {
+    background-color:antiquewhite;
+    height:200px;
+ 
+    
+}
+.info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap:120px;
+    
+}
+footer section{
+    padding: 10px 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .info img{
+    margin-top: 12px;
+    cursor: pointer;
+    width: 60px;
+    margin-left:-50px;
+  }
+  
+
+  
+  footer h3{
+    font-size: 18px;
+  }
+  
+  footer ul{
+    padding: 0;
+  }
+  
+  footer ul li{
+    padding: 8px 0;
+  }
+  .companyinfo {
+   
+    line-height: 1.5;
+    max-width:250px;
+    color:darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+}
+  .info2 {
+    color: darkcyan;
+    font-weight:300;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+
+  }
+
+  .icon {
+    display: flex;
+    justify-content: space-around;
+  }
+  .msg p {
+    color:darkcyan;
+  }
